@@ -1,0 +1,18 @@
+notepad .gitignore
+```
+
+**Content**:
+```
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+logs/
+*.log
+.DS_Store
+node_modules/
+server.log
+uv.lock
