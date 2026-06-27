@@ -17,7 +17,7 @@ from qdrant_client import QdrantClient
 load_dotenv()
 
 # Import from existing modules
-from app.agent import (
+from server.agent import (
     get_embedding,
     retrieve_textbook,
     smart_agent_stream,
